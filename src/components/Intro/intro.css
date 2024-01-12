@@ -24,6 +24,11 @@
     text-align: center;
 }
 
+.introTextBox {
+    margin: auto;
+    text-align: center;
+}
+
 .myIntroName {
     color: yellowgreen;
 }
