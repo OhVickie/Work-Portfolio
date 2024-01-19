@@ -5,28 +5,30 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
+    text-align: center;
 }
 
 .hello {
     font-size: 1.75rem;
     font-weight: 100;
+    margin-bottom: 24px;
 }
 
 .introContent {
+    overflow: hidden;
     height: 100vh;
-    width: 100vw;
+    /* width: 80vw; */
     padding: 2rem;
-    font-size: 3.2rem;
+    font-size: 3.5rem;
     font-weight: 600;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+
 }
 
-.introTextBox {
-    margin: auto;
-    text-align: center;
+.introText {
+    margin-bottom: 24px;
 }
 
 .myIntroName {
@@ -43,7 +45,8 @@
     background: white;
     border: none;
     border-radius: 2rem;
-    padding: .75rem 1.5rem;
+    padding: .75rem 2.5rem;
+    font-size: 1rem;
 }
 
 .btn:hover {

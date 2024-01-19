@@ -8,16 +8,18 @@ const Intro = () => {
     return (
         <section id="intro">
             <div className='introContent'>
-                {/* <span className='hello'>Hello,</span>
+                <span className='hello'>Hello,</span>
                 <span className="introText">My name is <span className="myIntroName">Victory</span> <br></br>
                     -Web Developer-
-                </span> */}
-                <div className='introTextBox'>
-                    <h2 className='hello'>Hello,</h2>
-                    <h2 className="introText">My name is <span className="myIntroName">Victory</span> <br></br>
-                        -Web Developer-
-                    </h2>
-                </div>
+                </span>
+
+                {/* <h2 className='hello'>Hello,</h2>
+                <h2 className="introText">My name is <span className="myIntroName">Victory</span> <br></br>
+                    -Web Developer-
+                </h2> */}
+                {/* <div className='introTextBox'>
+
+                </div> */}
 
                 <p className="introParagraph">This is my journey of creating aesthetically-pleasing
                     <br></br>and user-friendly websites.
