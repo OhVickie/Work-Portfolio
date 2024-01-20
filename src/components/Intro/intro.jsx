@@ -10,7 +10,7 @@ const Intro = () => {
             <div className='introContent'>
                 <span className='hello'>Hello,</span>
                 <span className="introText">My name is <span className="myIntroName">Victory</span> <br></br>
-                    -Web Developer-
+                    <span className="myIntroJob">Front-end Developer</span>
                 </span>
 
                 {/* <h2 className='hello'>Hello,</h2>
